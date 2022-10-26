@@ -16,12 +16,12 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav" className='ms-5'>
                     <Nav className="me-auto">
-                        <Link className="nav-link text-dark fw-bold">Courses</Link>
-                        <Link className="nav-link text-dark fw-bold">FAQ</Link>
-                        <Link className="nav-link text-dark fw-bold">Blog</Link>
+                        <Link to = '/courses' className="nav-link text-dark fw-bold">Courses</Link>
+                        <Link to = '/faq' className="nav-link text-dark fw-bold">FAQ</Link>
+                        <Link to = 'blogs' className="nav-link text-dark fw-bold">Blog</Link>
                         
                     </Nav>
-                    <Nav className='align-items-center'>
+                    <Nav className='align-items-lg-center'>
                         <Nav.Link className='text-dark fw-bold' href="#deets">More deets</Nav.Link>
                         <Nav.Link className='text-dark fw-bold' href="#memes">
                             Dank memes

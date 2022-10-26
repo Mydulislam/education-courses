@@ -9,9 +9,9 @@ const Banner = () => {
             <div>
                 <div className='d-flex justify-content-center align-items-center h-100'>
                     <div className='text-white'>
-                        <h1 className='mb-3 fs-1'>Together We'll Explore New Things</h1>
+                        <h1 style={{fontSize:'50px'}} className='mb-3 fw-bold'>Together We'll Explore <br/> New Things.</h1>
                         <p>We belive everyone should have the opportunity to create progress throw technology</p>
-                        <Link className='btn btn-primary'>Find Courses</Link>
+                        <Link to='/courses' className='btn btn-primary'>Find Courses</Link>
                     </div>
                 </div>
             </div>

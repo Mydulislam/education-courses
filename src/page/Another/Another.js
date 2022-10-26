@@ -1,5 +1,6 @@
 import React from 'react';
-const Category = () => {
+
+const Another = () => {
     return (
         <div>
             <h1>This is another page</h1>
@@ -7,4 +8,4 @@ const Category = () => {
     );
 };
 
-export default Category;
+export default Another;

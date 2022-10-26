@@ -1,9 +1,8 @@
 import React from 'react';
-
 const Courses = () => {
     return (
         <div>
-            <h1>This is courses page</h1>
+            <h1>This is course page</h1>
         </div>
     );
 };
