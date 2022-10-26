@@ -6,6 +6,8 @@ import CategorisCourse from '../page/Courses/CategorisCourse';
 import Courses from '../page/Courses/Courses';
 import ErrorPage from '../page/ErrorPage/ErrorPage';
 import Faq from '../page/Faq/Faq';
+import Login from '../page/Login/Login';
+import Register from '../page/Register/Register';
 
 export const router = createBrowserRouter([
     {
@@ -34,6 +36,14 @@ export const router = createBrowserRouter([
             {
                 path: '/blogs',
                 element: <Blogs></Blogs>
+            },
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/register',
+                element: <Register></Register>
             },
         ],
 

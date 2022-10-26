@@ -2,7 +2,7 @@ import React from 'react';
 import { FaBook} from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const SingleCourse = ({course}) => {
-    const {_id,image_url, title, details, author, info, rating } = course;
+    const {_id,image_url, title, details, author, info} = course;
     return (
         <div>
             <div className="col">
