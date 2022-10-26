@@ -10,7 +10,7 @@ import { useState } from 'react';
 const Header = () => {
     const [toggleDarkLight, setToggleDarkLigh] = useState(false);
     return (
-        <Navbar collapseOnSelect expand="lg" bg="info" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="info" variant="dark" className='mb-2'>
             <Container>
                 <Link to='/'><img style={{height:'40px'}} src={logo} alt="" /></Link>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
