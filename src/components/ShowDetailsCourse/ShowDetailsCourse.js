@@ -1,7 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Link, useLoaderData } from 'react-router-dom';
-import { FaBook } from "react-icons/fa";
 const ShowDetailsCourse = () => {
     const detailsCourse = useLoaderData()
     console.log(detailsCourse)

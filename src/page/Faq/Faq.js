@@ -35,7 +35,7 @@ const Faq = () => {
             <p>The courses are detailed in the course offerings. For further information, please contact Online Learning.</p>
             <h3>Question: What happens if I don't finish the course?</h3>
             <b>Ans:</b>
-            <p>If you do not finish the course during the semester enrollment period, and if you do not request an incomplete, the course will appear on your University of Minnesota transcript with the grade of N (not completed), or a letter grade that reflects your course participation. You must officially drop from a course by the necessary deadline in order to remove the course from your transcript. You may also cancel the course and receive a “W” on your transcript and a tuition refund if you meet the refund deadlines for the semester.</p>
+            <p>If you do not finish the course during the enrollment period, and if you do not request an incomplete, the course will appear on your transcript with the grade of N (not completed), or a letter grade that reflects your course participation. You must officially drop from a course by the necessary deadline in order to remove the course from your transcript. You may also cancel the course and receive a “W” on your transcript and a tuition refund if you meet the refund deadlines for the semester.</p>
         </div>
     );
 };
