@@ -4,7 +4,7 @@ import image from '../../assets/img/demo-bg.jpg'
 const Banner = () => {
     return (
         <div
-            className='p-5 text-center bg-image'
+            className='min-vh-100 p-5 text-center bg-image'
             style={{backgroundImage: `url(${image})`, height: '400px', backgroundSize:'cover'}}>
             <div>
                 <div className='d-flex justify-content-center align-items-center h-100'>

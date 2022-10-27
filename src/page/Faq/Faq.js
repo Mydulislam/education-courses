@@ -2,7 +2,7 @@ import React from 'react';
 
 const Faq = () => {
     return (
-        <div className='text-justify'>
+        <div className='text-justify mt-3'>
             <h1 className='fs-1 fw-bold text-decoration-underline text-center mb-4'>Frequently Asked Question(FAQ)</h1>
             <h3>Question: What are some of the advantages of this courses?</h3>
             <b>Ans:</b>

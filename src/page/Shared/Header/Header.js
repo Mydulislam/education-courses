@@ -33,7 +33,7 @@ const Header = () => {
                     </Nav>
                     <Nav className='align-items-lg-center'>
                         {
-                            user?.emailVerified === true?
+                            user?.uid ?
                                 <>
                                     {
                                         user?.photoURL ?

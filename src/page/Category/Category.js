@@ -11,9 +11,10 @@ const Category = () => {
     },[])
     return (
         <div>
+            <h1 className=''>Course Lists</h1>
             {
-                categories.map(category => <p key={category.id}>
-                    <Link to={`/category/${category.id}`}>{category.name}</Link>
+                categories.map(category => <p className=' bg-info rounded' key={category.id}>
+                    <Link className='d-block text-white text-decoration-none w-100 py-2 px-3' to={`/category/${category.id}`}>{category.name}</Link>
                 </p>)
             }
         </div>

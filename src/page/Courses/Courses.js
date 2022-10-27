@@ -10,7 +10,7 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, [])
     return (
-        <div className='border border-2 p-3'>
+        <div className='border border-2 p-3 mt-3'>
             <h1 className='mb-4 text-center'>All courses</h1>
             <div className='row row-cols-1 row-cols-md-2 g-4'>
                 {

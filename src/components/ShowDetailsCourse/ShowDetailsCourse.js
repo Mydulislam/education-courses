@@ -1,6 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Link, useLoaderData } from 'react-router-dom';
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 const ShowDetailsCourse = () => {
     const detailsCourse = useLoaderData()
     console.log(detailsCourse)
@@ -29,8 +30,8 @@ const ShowDetailsCourse = () => {
                             <p className='mb-1 fw-bold'>Rating status: {rating.badge}</p>
                         </div>
                     </div>
-                    <Link className='btn btn-primary mt-4 me-4' to='/courses'>Back Courses</Link>
-                    <Link className='btn btn-primary mt-4' to={`/checkout/${_id}`}>Get premium access</Link>
+                    <Link className='btn btn-primary mt-4 me-4' to='/courses'><FaArrowLeft/> Back Courses</Link>
+                    <Link className='btn btn-primary mt-4' to={`/checkout/${_id}`}> Get premium access <FaArrowRight/></Link>
                 </div>
             </Col>
         </Row>
