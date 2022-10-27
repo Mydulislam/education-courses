@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import toast from 'react-hot-toast';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthProvider';
 import { FacebookAuthProvider, GoogleAuthProvider } from "firebase/auth";
 const Login = () => {
@@ -11,6 +11,8 @@ const Login = () => {
     const [success, setSuccess] = useState(false)
     const [error, setError] = useState('')
     const navigate = useNavigate()
+    const location = useLocation();
+    const from = location.state.from.pathname || '/'
     const googleProvider = new GoogleAuthProvider()
     const facebookProvider = new FacebookAuthProvider()
     const handleLogin = (event) => {
@@ -26,7 +28,7 @@ const Login = () => {
                 setSuccess(true)
                 setError('')
                 if (user.emailVerified) {
-                    navigate('/blogs')
+                    navigate(from, {replace:true})
                 }
                 else {
                     toast.error('your email is not verified')
