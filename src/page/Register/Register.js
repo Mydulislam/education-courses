@@ -76,7 +76,7 @@ const Register = () => {
         <Form className='w-50 mx-auto' onSubmit={handleRegister}>
             <h1>Please Register</h1>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Name</Form.Label>
+                <Form.Label>Full Name</Form.Label>
                 <Form.Control name='name' type="text" placeholder="Enter name" required/>
             </Form.Group>
 

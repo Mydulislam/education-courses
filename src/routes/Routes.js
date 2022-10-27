@@ -22,12 +22,12 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/category/:id',
-                loader: ({ params }) => fetch(`http://localhost:5000/category/${params.id}`),
+                loader: ({ params }) => fetch(`https://assignment-10-server-lilac.vercel.app/category/${params.id}`),
                 element: <CategorisCourse></CategorisCourse>
             },
             {
                 path: '/course/:id',
-                loader: ({ params }) => fetch(`http://localhost:5000/course/${params.id}`),
+                loader: ({ params }) => fetch(`https://assignment-10-server-lilac.vercel.app/course/${params.id}`),
                 element: <ShowDetailsCourse></ShowDetailsCourse>
             },
             {
